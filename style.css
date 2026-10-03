@@ -1,0 +1,69 @@
+/* Custom Vibrant Theme Colors */
+:root {
+    --primary-color: #6d28d9;        /* Rich Deep Violet */
+    --primary-hover: #5b21b6;
+    --primary-light: #f3e8ff;        /* Light Violet Accent */
+    --text-heading: #0f172a;         /* Deep Slate Heading */
+    --text-subheading: #475569;      /* Slate Subheading */
+}
+
+/* Light Theme Styling */
+[data-bs-theme="light"] {
+    --bs-primary: #6d28d9;
+    --bs-primary-rgb: 109, 40, 217;
+    --bs-body-bg: #f8fafc;
+    --bs-body-color: #334155;
+}
+
+[data-bs-theme="light"] .hero-subtitle {
+    color: #5b21b6 !important;
+}
+
+[data-bs-theme="light"] .text-body-secondary {
+    color: #475569 !important;
+}
+
+/* Dark Theme Styling */
+[data-bs-theme="dark"] {
+    --bs-primary: #a78bfa;           /* Bright Soft Lavender for Dark Mode */
+    --bs-primary-rgb: 167, 139, 250;
+    --bs-body-bg: #0f172a;           /* Deep Midnight Navy Background */
+    --bs-body-color: #cbd5e1;        /* Crisp Slate Text */
+}
+
+[data-bs-theme="dark"] .bg-body-tertiary,
+[data-bs-theme="dark"] .card {
+    background-color: #1e293b !important; /* Elevated Card Surface */
+    border-color: #334155 !important;
+}
+
+[data-bs-theme="dark"] .text-body-secondary,
+[data-bs-theme="dark"] .text-muted {
+    color: #94a3b8 !important;        /* Clear Secondary Text */
+}
+
+[data-bs-theme="dark"] .hero-subtitle {
+    color: #c084fc !important;        /* Vibrant Subheading Glow */
+}
+
+[data-bs-theme="dark"] .badge.bg-primary-subtle {
+    background-color: rgba(167, 139, 250, 0.15) !important;
+    color: #c084fc !important;
+}
+
+/* Button & Accent Adjustments */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: #ffffff;
+}
