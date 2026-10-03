@@ -3,8 +3,8 @@
 A modern, responsive, and high-performance personal portfolio website built with **HTML5**, **CSS3**, **Bootstrap 5.3**, and **JavaScript**. Designed to showcase my academic credentials, technical skills, industry internships, and AI/ML engineering projects.
 
 ---
-# Live Portfolio: 
-# Github Link: 
+  Live Portfolio:  https://rathlavathbhargavi83-dotcom.github.io/profile-portfolio/
+  Github Link: 
 
 ## 🌟 Key Features
 
